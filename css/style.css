@@ -1,0 +1,104 @@
+
+body {
+    background-color: #820000; /* fundo claro */
+    color: #ffffff;            /* texto escuro */   
+    font-family: "Segoe UI", 'Courier New', monospace; 
+}
+
+/* Header */
+header {
+    background-color: #820000;
+    border-bottom: 3px solid #ffffff; 
+}
+
+header h1 {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* Navegação */
+.nav-link {
+    font-weight: 500;
+    color: #000000;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+     
+.nav-link.active {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+/* Conteúdo principal */
+main {
+    background-color: #6d6d6d;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(127, 127, 127, 0.749);
+}
+
+/* Títulos */
+h2, h3 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+/* Listas */
+.list-group-item {
+    background-color: #000000;
+    border: 2px solid #ffffff;
+}
+
+/* Tabelas */
+.table {
+    background-color: #ffffff;  
+}
+
+.table th {
+    background-color: #d30000; /* tom claro de vermelho */
+    color: #c00000;
+}
+
+/* Formulários */
+.form-label {
+    font-weight: 500;
+}
+
+.form-control {
+    border-radius: 6px;
+    border-color: #c20000;
+}
+
+.form-control:focus {
+    border-color: #ff0000;
+    box-shadow: 0 0 5px #00000066;
+}
+
+/* Botões */
+.btn-danger {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #000000;
+}
+
+/* Imagens */
+img {
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #820000;
+    color: #ffffff;
+    padding: 15px 0;
+    border-top: 3px solid #ffffff;
+}
