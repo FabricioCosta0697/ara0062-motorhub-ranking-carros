@@ -1,0 +1,51 @@
+[
+
+{
+
+"imagem": {
+
+"src": "./imagens/jesko-absolute.webp",
+
+"alt": "Ranking do carro Jesko Absolute"
+
+},
+
+"titulo": "Jesko Absolute",
+
+"marca": "Koenigsegg"
+
+},
+
+{
+
+"imagem": {
+
+"src": "./imagens/hennessey-venom-f5.webp",
+
+"alt": "Ranking do carro Hennessey Venom F5"
+
+},
+
+"titulo": "Hennessey Venom F5",
+
+"marca": "Hennessey"
+
+},
+
+{
+
+"imagem": {
+
+"src": "./imagens/bugatti-chiron-super-sport-300-plus.webp",
+
+"alt": "Ranking do carro Bugatti Chiron Super Sport 300+"
+
+},
+
+"titulo": "Bugatti Chiron Super Sport 300+",
+
+"marca" : "Bugatti"
+
+}
+
+]
