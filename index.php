@@ -19,7 +19,7 @@
             <p>
             O <strong>MotorHub</strong> é um projeto de desenvolvimento web, para apaixonados por carros e aprendizado em desenvolvimento, para entendermos como funciona.
         </p>
-        <p>Neste site veremos rankings sobre:</p>
+        <p>Neste site teremos rankings sobre:</p>
         <ul>
             <li>
                 Os carros mais rápidos do mundo e suas especificações.
