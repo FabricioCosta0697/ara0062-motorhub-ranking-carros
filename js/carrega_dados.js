@@ -2,7 +2,7 @@
 const tabelaRapidos = document.getElementById('rapidos');
 const tabelaLentos = document.getElementById('lentos');
 
-const urlDados = 'data/dados.json';
+const urlDados = 'js/dados.json';
 
 // Função principal
 function carregarDadosJSON() {
