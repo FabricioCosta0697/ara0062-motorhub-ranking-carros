@@ -1,7 +1,7 @@
 [
     {
         "imagem": {
-            "src": "../img/jesko.webp",
+            "src": "./img/jesko.webp",
             "alt": "Ranking do carro Jesko Absolute"
         },
         "nome": "Jesko Absolute",
@@ -9,10 +9,9 @@
         "motor": "V8 5.0L Twin Turbo",
         "velocidade": "531 km/h"
     },
-
     {
         "imagem": {
-            "src": "../img/u9-byd.webp",
+            "src": "./img/u9-byd.webp",
             "alt": "Ranking do carro BYD U9"
         },
         "nome": "BYD U9 Track Edition",
@@ -20,10 +19,9 @@
         "motor": "4 Motores Elétricos (1.300+ cv)",
         "velocidade": "496 km/h"
     },
-    
     {
         "imagem": {
-            "src": "../img/bugatti-chiron-super-sport-300.webp",
+            "src": "./img/bugatti-chiron-super-sport-300.webp",
             "alt": "Ranking do carro Bugatti Chiron Super Sport 300+"
         },
         "nome": "Bugatti Chiron Super Sport 300+",
@@ -31,10 +29,9 @@
         "motor": "W16 8.0L Quad-Turbo",
         "velocidade": "490 km/h"
     },
-    
     {
         "imagem": {
-            "src": "../img/hennessey-venom-f5-evolution.webp",
+            "src": "./img/hennessey-venom-f5-evolution.webp",
             "alt": "Ranking do carro Hennessey Venom F5"
         },
         "nome": "Hennessey Venom F5",
@@ -42,10 +39,9 @@
         "motor": "V8 6.6L Twin Turbo",
         "velocidade": "484 km/h"
     },
-    
     {
         "imagem": {
-            "src": "../img/ssctuatara.webp",
+            "src": "./img/ssctuatara.webp",
             "alt": "Ranking do carro SSC Tuatara"
         },
         "nome": "SSC Tuatara",
@@ -53,10 +49,9 @@
         "motor": "V8 5.9L Twin Turbo",
         "velocidade": "455 km/h"
     },
-
-    { 
+    {
         "imagem": {
-            "src": "../img/microlino.webp",
+            "src": "./img/microlino.webp",
             "alt": "Ranking do carro Micro Microlino"
         },
         "nome": "Microlino",
@@ -64,10 +59,9 @@
         "motor": "Elétrico 25 hp",
         "velocidade": "90 km/h"
     },
-
     {
         "imagem": {
-            "src": "../img/isetta.webp",
+            "src": "./img/isetta.webp",
             "alt": "Ranking do carro BMW Isetta"
         },
         "nome": "BMW Isetta",
@@ -75,10 +69,9 @@
         "motor": "Mono 298cc (1 cilindro)",
         "velocidade": "85 km/h"
     },
-
     {
         "imagem": {
-            "src": "../img/twizy.webp",
+            "src": "./img/twizy.webp",
             "alt": "Ranking do carro Renault Twizy"
         },
         "nome": "Renault Twizy",
@@ -86,10 +79,9 @@
         "motor": "Elétrico 13 kW",
         "velocidade": "80 km/h"
     },
-
     {
         "imagem": {
-            "src": "../img/ami.webp",
+            "src": "./img/ami.webp",
             "alt": "Ranking do carro Citroën Ami"
         },
         "nome": "Citroën Ami",
@@ -97,10 +89,9 @@
         "motor": "Elétrico 6 kW",
         "velocidade": "45 km/h"
     },
-
     {
         "imagem": {
-            "src": "../img/fiat-topolino-italia.webp",
+            "src": "./img/fiat-topolino-italia.webp",
             "alt": "Ranking do carro Fiat Topolino"
         },
         "nome": "Fiat Topolino",
