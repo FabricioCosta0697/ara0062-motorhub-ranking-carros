@@ -2,7 +2,6 @@
 const tabelaRapidos = document.getElementById('rapidos');
 const tabelaLentos = document.getElementById('lentos');
 
-// Caminho do JSON (nome exigido pelo professor)
 const urlDados = 'data/dados.json';
 
 // Função principal

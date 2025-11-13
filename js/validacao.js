@@ -1,8 +1,7 @@
 // js/validacao.js
 
-// Regex estrito para o formato 000.000.000-00
+
 const regexCPFFormato = /^\d{3}\.\d{3}\.\d{3}-\d{2}$/;
-// Regex simples para e-mail no formato joao.silva@net.com (ajustável)
 const regexEmail = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,}$/i;
 
 function validarEmail(email) {
@@ -34,19 +33,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const inputEmail = document.getElementById("id_email");
     const inputCPF = document.getElementById("id_cpf");
 
-    // Só pros casos em que elemento existe (defesa)
+
     if (inputCPF) {
         // mascara ao digitar
         inputCPF.addEventListener("input", (e) => {
             const pos = inputCPF.selectionStart;
             const valorFormatado = aplicarMascaraCPF(inputCPF.value);
             inputCPF.value = valorFormatado;
-
-            // tenta restaurar o caret pra fim (simples)
             inputCPF.selectionStart = inputCPF.selectionEnd = inputCPF.value.length;
         });
 
-        // impede colar conteúdo inválido -- converte e aplica máscara
+
         inputCPF.addEventListener("paste", (e) => {
             e.preventDefault();
             const texto = (e.clipboardData || window.clipboardData).getData('text');
@@ -67,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 return;
             }
 
-            // Validação do CPF apenas no formato (000.000.000-00)
+            // Validação do CPF (000.000.000-00)
             if (!validarCPFFormato(cpf)) {
                 alert("CPF inválido! Use o formato 000.000.000-00");
                 if (inputCPF) inputCPF.focus();
