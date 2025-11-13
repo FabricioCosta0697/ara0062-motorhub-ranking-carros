@@ -3,28 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CloudFlix</title>
+    <title>MotorHub</title>
     <style type="text/css">
         @import url("css/estilos.css");
     </style>
 </head>
 <body> 
     <header>
-        <h1>CloudFlix: Seu catálogo fictício de filmes</h1>
+        <h1>MotorHub: Seu Ranking de velocidade</h1>
     </header>
     <?php include 'nav.php'; ?>
     <main>
-        <h2>Bem-vindos ao CloudFlix: Catálogo de Filmes</h2>
+        <h2>Bem-vindos ao MotorHub: Seu Ranking Automotivo</h2>
         <p>
-            O <strong>CloudFlix</strong> é um projeto de demonstração criado para ilustrar os conceitos fundamentais do desenvolvimento web. Pense nele como o seu cinema digital pessoal. Mas, em vez de simplesmente assistir aos filmes, você vai entender como ele funciona por dentro.
+            <p>
+            O <strong>MotorHub</strong> é um projeto de desenvolvimento web, para apaixonados por carros e aprendizado em desenvolvimento, para entendermos como funciona.
         </p>
-        <p>Neste projeto, você aprenderá sobre:</p>
+        <p>Neste site veremos rankings sobre:</p>
         <ul>
             <li>
-                Front-End: A parte visual do site, que você está vendo agora. Como os filmes são organizados e exibidos, usando HTML, CSS e JavaScript.
+                Os carros mais rápidos do mundo e suas especificações.
             </li>
             <li>
-                Back-End: O "cérebro" do site. É aqui que os dados dos filmes são armazenados e gerenciados
+                Os carros mais lentos do mundo, para descontrair.
             </li>
         </ul>
     </main>
