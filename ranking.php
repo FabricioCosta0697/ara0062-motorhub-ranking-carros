@@ -9,17 +9,8 @@
 </head>
 
 <body>
-    <header>
-        <h1>MotorHub: Seu Ranking de velocidade</h1>
-    </header>
-
-    <nav>
-        <a href="index.html">Home</a> |
-        <a href="ranking.html">Ranking</a> |
-        <a href="sac.html">SAC</a> |
-        <a href="equipe.html">Equipe</a> | 
-        <a id="alternaTema" href="#">Alternar para Tema Escuro</a> 
-    </nav>
+    <?php include 'header.php'; ?>
+    <?php include 'nav.php'; ?>    
 
     <main>
         <h2>Lista dos 5 Mais Rápidos do Mundo</h2>
@@ -56,13 +47,10 @@
 
     </main>
 
-    <footer class="texto-do-rodape">
-        <p>© 2025 MotorHub. Todos os direitos reservados.</p>
-        <p>Este projeto é uma ferramenta educacional e não comercial. As informações e imagens dos veículos são utilizadas para fins de demonstração, aprendizado e ilustração de conceitos de desenvolvimento web.</p>
-    </footer>
+     <?php include 'footer.php'; ?>
 
     <script src="js/tema.js" defer></script>
-    <script src="js/carrega_dados.js" defer></script>
+    <script src="js/carros.js"></script>
 </body>
 
 </html>
